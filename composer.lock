@@ -1,0 +1,124 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "972bee546768ff6924aac731ae3915ec",
+  "packages": [
+    {
+      "name": "lessmore92/base-x",
+      "version": "v1.0.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lessmore92/base-x.git",
+        "reference": "2867d29ef4d3850e2d532d2e543f8303cfdcf80e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/lessmore92/base-x/zipball/2867d29ef4d3850e2d532d2e543f8303cfdcf80e",
+        "reference": "2867d29ef4d3850e2d532d2e543f8303cfdcf80e",
+        "shasum": ""
+      },
+      "require": {
+        "lessmore92/buffer": "v1.0.0",
+        "php": ">=7"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Lessmore92\\BaseX\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Lessmore92",
+          "email": "bahramisoft@gmail.com"
+        }
+      ],
+      "description": "Encode/decode any base",
+      "keywords": [
+        "base",
+        "base-x",
+        "base58",
+        "base62",
+        "bitcoin",
+        "crypto",
+        "crytography",
+        "decode",
+        "decoding",
+        "encode",
+        "encoding",
+        "ethereum",
+        "ripple"
+      ],
+      "support": {
+        "issues": "https://github.com/lessmore92/base-x/issues",
+        "source": "https://github.com/lessmore92/base-x/tree/v1.0.3"
+      },
+      "time": "2021-01-11T12:11:54+00:00"
+    },
+    {
+      "name": "lessmore92/buffer",
+      "version": "v1.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lessmore92/Buffer.git",
+        "reference": "735337066decb5fa8769359b40bfb0ccd9086d67"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/lessmore92/Buffer/zipball/735337066decb5fa8769359b40bfb0ccd9086d67",
+        "reference": "735337066decb5fa8769359b40bfb0ccd9086d67",
+        "shasum": ""
+      },
+      "require": {
+        "php-64bit": ">=7.0.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Lessmore92\\Buffer\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Lessmore92",
+          "email": "bahramisoft@gmail.com"
+        }
+      ],
+      "description": "Toolbox for working with binary and hex data",
+      "keywords": [
+        "Buffer",
+        "binary",
+        "hex",
+        "nodejs-buffer",
+        "php-buffer"
+      ],
+      "support": {
+        "issues": "https://github.com/lessmore92/Buffer/issues",
+        "source": "https://github.com/lessmore92/Buffer/tree/v1.0.0"
+      },
+      "time": "2021-01-11T11:55:50+00:00"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "dev",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": {
+    "php": ">7"
+  },
+  "platform-dev": [],
+  "plugin-api-version": "2.0.0"
+}

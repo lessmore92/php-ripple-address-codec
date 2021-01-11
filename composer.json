@@ -1,0 +1,33 @@
+{
+  "name": "lessmore92/php-ripple-address-codec",
+  "description": "Library for encoding and decoding XRP Ledger addresses and seeds.",
+  "keywords": [
+    "xrp",
+    "xrp-ledger",
+    "ripple-address",
+    "x-address",
+    "ripple-x-address",
+    "xaddress",
+    "encoding",
+    "decoding"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lessmore92",
+      "email": "bahramisoft@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">7",
+    "lessmore92/base-x": "v1.0.3",
+    "lessmore92/buffer": "v1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lessmore92\\RippleAddressCodec\\": "src/"
+    }
+  }
+}
