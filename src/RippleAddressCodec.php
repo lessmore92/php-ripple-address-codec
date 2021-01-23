@@ -145,7 +145,7 @@ class RippleAddressCodec
 
     public function xAddressToClassicAddress(string $xAddress)
     {
-        list($accountId, $tag, $test) = $this->decodeXAddress($xAddress);
+        list($accountId, $tag, $test) = array_values($this->decodeXAddress($xAddress));
         $classicAddress = $this->encodeAccountID($accountId);
         return [
             'classicAddress' => $classicAddress,
