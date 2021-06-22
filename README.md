@@ -9,7 +9,7 @@ This package is fully same to main repository, so docs is same. [Main Doc](https
 
 ### Usage Sample
 
-```
+```php
 require_once "vendor/autoload.php";
 
 $api = new \Lessmore92\RippleAddressCodec\RippleAddressCodec();
