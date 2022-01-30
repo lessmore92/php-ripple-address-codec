@@ -94,7 +94,7 @@ class RippleAddressCodec
         {
             $this->decodeAccountID($address);
         }
-        catch (Exception $e)
+        catch (\Throwable $e)
         {
             return false;
         }
@@ -217,7 +217,7 @@ class RippleAddressCodec
         {
             $this->decodeXAddress($xAddress);
         }
-        catch (Exception $e)
+        catch (\Throwable $e)
         {
             return false;
         }
