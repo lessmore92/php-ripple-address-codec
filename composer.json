@@ -22,7 +22,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">7",
-    "lessmore92/base-x": "v1.0.3",
+    "lessmore92/base-x": "v1.0.4",
     "lessmore92/buffer": "v1.0.0"
   },
   "autoload": {
